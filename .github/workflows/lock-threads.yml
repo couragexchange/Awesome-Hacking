@@ -2,7 +2,7 @@ name: 'Lock Threads'
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: Courage77
   workflow_dispatch:
 
 permissions:
@@ -10,7 +10,7 @@ permissions:
   pull-requests: write
   discussions: write
 
-concurrency:
+concurrency:dollars 
   group: lock-threads
 
 jobs:
